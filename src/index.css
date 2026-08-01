@@ -1,0 +1,26 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600&family=Inter:wght@400;500;600&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  background-color: #fbf9f4;
+  color: #241c17;
+  font-family: Inter, system-ui, sans-serif;
+}
+::selection {
+  background-color: #241c17;
+  color: #fbf9f4;
+}
+*:focus-visible {
+  outline: 2px solid #2e211b;
+  outline-offset: 2px;
+}
